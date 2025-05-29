@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a98d45a-c8c6-4a20-b975-7094dd8dabe8" name="Changes" comment="Updated">
+    <list default="true" id="4a98d45a-c8c6-4a20-b975-7094dd8dabe8" name="Changes" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hardcoded_values/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/hardcoded_values/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/no_hardcoded_values/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/no_hardcoded_values/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +147,7 @@
       <workItem from="1735769519832" duration="1041000" />
       <workItem from="1737482765228" duration="1136000" />
       <workItem from="1748518733262" duration="320000" />
-      <workItem from="1748519062059" duration="3594000" />
+      <workItem from="1748519062059" duration="4202000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -212,7 +213,23 @@
       <option name="project" value="LOCAL" />
       <updated>1748521616691</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated">
+      <option name="closed" value="true" />
+      <created>1748522684943</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1748522684943</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1748522694224</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1748522694224</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,11 +238,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added files" />
     <MESSAGE value="Added file" />
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Deleted a file" />
     <MESSAGE value="Moved things around a bit" />
     <MESSAGE value="Updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Payments_calc$roommate_payments_calculator_hardcoded_values_.coverage" NAME="roommate_payments_calculator(hardcoded values) Coverage Results" MODIFIED="1735769836062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

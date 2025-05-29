@@ -1,10 +1,9 @@
 from itertools import islice
 
-def get_bills(bills) -> None:
 
+def get_bills(bills) -> None:
     # skip hardcoded values with islice
     for k, v in islice(bills.items(), len(bills)-2, len(bills)):
-
         try:
             user_input = float(input(f"Input {k} bill amount >> "))
             if user_input == 0:
@@ -18,7 +17,7 @@ def get_bills(bills) -> None:
             bills.update({k: bill})
 
 
-def calculate_bills() -> None:
+def calculate_bills(bills) -> None:
     total: float = 0.0
     for k, v in bills.items():
         bills[k] = float(v)
@@ -32,14 +31,18 @@ def calculate_bills() -> None:
     print(f"Total payment: {round(total, 2)}")
 
 
-bills = {
-    "rent": 1200.0,
-    "internet": 24.95,
-    "home insurance": 30.50,
-    "electricity": 0.0,
-    "water": 0.0
-}
+def main() -> None:
+    bills = {
+        "rent": 1200.0,
+        "internet": 24.95,
+        "home insurance": 30.50,
+        "electricity": 0.0,
+        "water": 0.0
+    }
 
-get_bills(bills)
-print("-----------------")
-calculate_bills()
+    get_bills(bills)
+    print("-----------------")
+    calculate_bills(bills)
+
+
+main()
