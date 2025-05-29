@@ -30,9 +30,9 @@ def calculate_bills() -> None:
 
 
 bills = {
-    "rent": 0.0,
-    "internet": 0.0,
-    "home insurance": 0.0,
+    "rent": 1200.0,
+    "internet": 24.95,
+    "home insurance": 30.50,
     "electricity": 0.0,
     "water": 0.0
 }

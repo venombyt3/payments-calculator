@@ -173,4 +173,4 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 /todo.md
-/roommate_payments_calculator(no_hardcoded_values).py
+/no_hardcoded_values
