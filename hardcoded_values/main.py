@@ -1,7 +1,10 @@
 from itertools import islice
 
 def get_bills(bills) -> None:
+
+    # skip hardcoded values with islice
     for k, v in islice(bills.items(), len(bills)-2, len(bills)):
+
         try:
             user_input = float(input(f"Input {k} bill amount >> "))
             if user_input == 0:
@@ -25,7 +28,7 @@ def calculate_bills() -> None:
         total += divided
     for k, v in bills.items():
         print(f"{k.capitalize()} payment is {v}")
-    print("\n")
+    print("-----------------")
     print(f"Total payment: {round(total, 2)}")
 
 

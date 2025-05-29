@@ -173,4 +173,3 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 /todo.md
-/no_hardcoded_values
